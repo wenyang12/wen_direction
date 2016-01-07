@@ -1,0 +1,31 @@
+{
+  "name": "wen_direction",
+  "version": "0.0.0",
+  "description": "鼠标进入和离开元素4个方向对应的相关操作",
+  "keywords": [],
+  "homepage": "",
+  "author": "wenyang <wenyang12@126.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  },
+  "devDependencies": {
+    "spm": "3"
+  },
+  "scripts": {
+    "test": "spm test",
+    "build": "spm build"
+  }
+}
