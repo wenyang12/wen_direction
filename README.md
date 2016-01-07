@@ -25,6 +25,7 @@ var wen_direction = require('wen_direction');
 
 - id : 元素的id
 - enterObject：用于判断鼠标是从哪个方向进入元素后的对象，对象必须含有四个方向的回调方法，即如下
+
     ```
     enterObjext = {
         left：function(self){//self是对id这个元素的引用
@@ -41,7 +42,9 @@ var wen_direction = require('wen_direction');
         }
     }
     ```
+    
 - leaveObject：用于判断鼠标是从哪个方向离开元素后的对象，对象必须含有四个方向的回调方法，即如下：
+
     ```
         leaveObject = {
             left：function(self){//self是对id这个元素的引用
