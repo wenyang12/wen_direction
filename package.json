@@ -1,6 +1,6 @@
 {
   "name": "wen_direction",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "鼠标进入和离开元素4个方向对应的相关操作",
   "keywords": [],
   "homepage": "",
@@ -16,6 +16,7 @@
   "spm": {
     "main": "index.js",
     "dependencies": {
+      "jquery": "~2.1.4"
     },
     "devDependencies": {
       "expect.js": "0.3.1"
